@@ -14,10 +14,10 @@ Config = {
     FavKeybindEnabled = true, -- You can disable the Favorite emote keybinding here.
     FavKeybind = 'capital', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     SqlKeybinding = false, -- If you have the SQL imported enable this to turn on keybinding.
-    NotificationsAsChatMessage = false, -- If you don't like native GTA 5 notifications, you can disable them here to have messages in the chat.
-    Framework = 'false', -- Used for few framework-dependent things. Accepted values: 'qb-core', false.
+    NotificationsAsChatMessage = true, -- If you don't like native GTA 5 notifications, you can disable them here to have messages in the chat.
+    Framework = 'qb-core', -- Used for few framework-dependent things. Accepted values: 'qb-core', false.
     Search = true, -- Used to enable or disable the search feature in the menu.
-    CancelPreviousEmote = false,     -- If turned on, playing an emote will cancel the previous one.
+    CancelPreviousEmote = true,     -- If turned on, playing an emote will cancel the previous one.
 	
 	
 	-- MENU CUSTOMIZATION OPTIONS
@@ -45,7 +45,7 @@ Config = {
 	
 	
 	-- RAGDOLL OPTIONS
-    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     RagdollAsToggle = true,  -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
 
@@ -61,15 +61,15 @@ Config = {
 	
 	
 	-- HANDS UP OPTIONS 
-    HandsupEnabled = false, -- You can enable / disable the handsup here / change the keybind. It is currently set to Y however disabled by default as to not conflict with qb-core servers.
-    HandsupKeybind = 'Y', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
-    HandsupKeybindEnabled = false, -- Set this to false if you would for whatever reason prefer people use the chat commannd /handsup.
-    HandsupKeybindInCarEnabled = false,
+    HandsupEnabled = true, -- You can enable / disable the handsup here / change the keybind. It is currently set to Y however disabled by default as to not conflict with qb-core servers.
+    HandsupKeybind = 'X', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
+    HandsupKeybindEnabled = true, -- Set this to false if you would for whatever reason prefer people use the chat commannd /handsup.
+    HandsupKeybindInCarEnabled = true,
     PersistentEmoteAfterHandsup = true, -- If true, you will play the emote you were playing previously after you cancel your handsup animation. This is enabled by default with the 'true' value.
 
 
 	-- POINTING OPTIONS
-    PointingEnabled = false, -- You can enable / disable the finger pointing here / change the keybind. It is currently set to B however disabled by default as to not conflict with qb-core servers.
+    PointingEnabled = true, -- You can enable / disable the finger pointing here / change the keybind. It is currently set to B however disabled by default as to not conflict with qb-core servers.
     PointingKeybindEnabled = true,
     PointingKeybind = 'B', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/.
     PointingKeybindInCarEnabled = false,
