@@ -5257,6 +5257,15 @@ RP.Exits = {
             EmoteMoving = true
         }
     },
+    ["uncuff"] = { -- md-drugs
+		"mp_arresting",
+		"a_uncuff",
+		"Uncuff",
+			AnimationOptions = {
+			EmoteLoop = true,
+			EmoteMoving = true
+		}
+	},
     ["shakeitoffhuman"] = {
         "move_m@_idles@shake_off",
         "shakeoff_1",
